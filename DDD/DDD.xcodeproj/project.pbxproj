@@ -207,7 +207,6 @@
 				TargetAttributes = {
 					0429977D1CA1CF03007C893F = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 9R9GDCX9FH;
 					};
 					042997961CA1CF04007C893F = {
 						CreatedOnToolsVersion = 7.2;
@@ -416,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mandy.DDD;
@@ -427,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mandy.DDD;
@@ -501,6 +502,7 @@
 				042997AD1CA1CF04007C893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042997AE1CA1CF04007C893F /* Build configuration list for PBXNativeTarget "DDDTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				042997B01CA1CF04007C893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042997B11CA1CF04007C893F /* Build configuration list for PBXNativeTarget "DDDUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +520,7 @@
 				042997B31CA1CF04007C893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
